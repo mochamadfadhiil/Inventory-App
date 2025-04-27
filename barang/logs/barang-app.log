@@ -1,0 +1,76 @@
+2025-04-26T21:55:48.854+07:00  INFO 5500 --- [restartedMain] com.example.barang.BarangApplication     : Starting BarangApplication using Java 21.0.6 with PID 5500 (C:\Dev\barang\target\classes started by Kudil in C:\Dev\barang)
+2025-04-26T21:55:49.158+07:00 DEBUG 5500 --- [restartedMain] com.example.barang.BarangApplication     : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-26T21:55:49.239+07:00  INFO 5500 --- [restartedMain] com.example.barang.BarangApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-26T21:55:52.035+07:00  INFO 5500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-26T21:55:52.322+07:00  INFO 5500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-26T21:56:00.364+07:00  INFO 5500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26T21:56:01.134+07:00  INFO 5500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 631 ms. Found 1 JPA repository interface.
+2025-04-26T21:56:07.280+07:00  INFO 5500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-26T21:56:07.519+07:00  INFO 5500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-26T21:56:07.528+07:00  INFO 5500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-26T21:56:07.972+07:00  INFO 5500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-26T21:56:07.976+07:00  INFO 5500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 15530 ms
+2025-04-26T21:56:09.231+07:00  INFO 5500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26T21:56:09.619+07:00  INFO 5500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-04-26T21:56:09.822+07:00  INFO 5500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-26T21:56:11.555+07:00  INFO 5500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26T21:56:11.693+07:00  INFO 5500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-26T21:56:12.506+07:00  INFO 5500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5920a47a
+2025-04-26T21:56:12.514+07:00  INFO 5500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-26T21:56:12.823+07:00  WARN 5500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-04-26T21:56:13.035+07:00  INFO 5500 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-26T21:56:16.055+07:00  INFO 5500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26T21:56:20.911+07:00  INFO 5500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26T21:56:23.971+07:00  INFO 5500 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-26T21:56:25.406+07:00  WARN 5500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26T21:56:28.193+07:00  INFO 5500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-26T21:56:28.452+07:00  INFO 5500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-26T21:56:28.538+07:00  INFO 5500 --- [restartedMain] com.example.barang.BarangApplication     : Started BarangApplication in 45.784 seconds (process running for 56.561)
+2025-04-26T21:57:50.120+07:00  INFO 5500 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (0 additions, 9 deletions, 0 modifications)
+2025-04-26T21:57:50.194+07:00  INFO 5500 --- [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-26T21:57:50.325+07:00  INFO 5500 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-26T21:57:50.394+07:00  INFO 5500 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26T21:57:50.459+07:00  INFO 5500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-26T21:57:50.690+07:00  INFO 5500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-26T21:57:56.478+07:00  INFO 5500 --- [restartedMain] com.example.barang.BarangApplication     : Starting BarangApplication using Java 21.0.6 with PID 5500 (C:\Dev\barang\target\classes started by Kudil in C:\Dev\barang)
+2025-04-26T21:57:56.483+07:00 DEBUG 5500 --- [restartedMain] com.example.barang.BarangApplication     : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-04-26T21:57:56.488+07:00  INFO 5500 --- [restartedMain] com.example.barang.BarangApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-26T21:57:57.200+07:00  INFO 5500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-26T21:57:57.246+07:00  INFO 5500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-04-26T21:57:57.537+07:00  INFO 5500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-26T21:57:57.543+07:00  INFO 5500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-26T21:57:57.546+07:00  INFO 5500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-04-26T21:57:57.617+07:00  INFO 5500 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-04-26T21:57:57.621+07:00  INFO 5500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1119 ms
+2025-04-26T21:57:57.833+07:00  INFO 5500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-26T21:57:57.847+07:00  INFO 5500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-26T21:57:57.996+07:00  INFO 5500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-26T21:57:58.001+07:00  INFO 5500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-26T21:57:58.018+07:00  INFO 5500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47d9d138
+2025-04-26T21:57:58.031+07:00  INFO 5500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-26T21:57:58.035+07:00  WARN 5500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-04-26T21:57:58.040+07:00  INFO 5500 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-26T21:57:58.238+07:00  INFO 5500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-26T21:57:58.321+07:00  INFO 5500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-26T21:57:58.520+07:00  WARN 5500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-26T21:57:58.821+07:00  INFO 5500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-26T21:57:58.881+07:00  INFO 5500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-26T21:57:58.889+07:00  INFO 5500 --- [restartedMain] com.example.barang.BarangApplication     : Started BarangApplication in 2.569 seconds (process running for 146.912)
+2025-04-26T21:57:58.902+07:00  INFO 5500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-26T21:59:20.106+07:00  INFO 5500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-26T21:59:20.124+07:00  INFO 5500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-26T21:59:20.166+07:00  INFO 5500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms

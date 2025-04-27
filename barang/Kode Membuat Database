@@ -1,0 +1,19 @@
+-- Buat database baru
+CREATE DATABASE IF NOT EXISTS db_barang;
+
+-- Pakai database tersebut
+USE db_barang;
+
+-- Buat table barang
+CREATE TABLE IF NOT EXISTS barang (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nama_barang VARCHAR(255) NOT NULL,
+    jumlah_stock INT NOT NULL,
+    nomor_seri VARCHAR(100) NOT NULL,
+    additional_info JSON DEFAULT NULL,
+    gambar_path VARCHAR(500) DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_by VARCHAR(100) DEFAULT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    updated_by VARCHAR(100) DEFAULT NULL
+);
